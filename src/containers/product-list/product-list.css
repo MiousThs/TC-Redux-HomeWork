@@ -1,0 +1,28 @@
+.App-product_list {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.product_list_item {
+    display: block;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.product_list_item p {
+    font-size: 0.9em;
+    line-height: 21px;
+    margin: 0;
+}
+
+.add-to-cart-btn {
+    margin-top: 10px;
+}

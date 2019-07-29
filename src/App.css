@@ -1,0 +1,59 @@
+.App {
+    text-align: left;
+}
+
+.App-header {
+    background-color: #222;
+    height: 50px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.App-header-cart {
+    color: white;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.App-header-cart button {
+    height: 3em;
+}
+
+.cart-amount {
+    display: flex;
+}
+
+.App-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.App-sidebar {
+    display: flex;
+    min-width: 150px;
+    height: 100%;
+    background: #222;
+    padding: 0 10px;
+}
+
+.App-sidebar-nav {
+    color: #fff;
+}
+
+.App-sidebar-nav li {
+    display: block;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.navLinks {
+    color: white;
+}
+
+.selected {
+    font-weight: bold;
+}
